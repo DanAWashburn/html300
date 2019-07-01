@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Button Madness</title>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Local Files -->
+  <script src="buttons.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="main">
+    <section>
+      <h1>For your clicking amusement, some buttons:</h1>
+      <h3>Please enter your name and click "Enter Name"</h3>
+      <div>
+        <input type="text">
+          <!-- Sets helloButton class so JavaScript can listen for it -->
+        <button class="helloButton">Enter Name</button>
+      </div>
+      <div>
+        <h3>Enter text and click "Contains a 'P'?" to see if your text truly contains a "P"</h3>
+            <input type="text">
+              <!-- Sets pButton class so JavaScript can listen for it -->
+            <button class="pButton">Contains a "P"?</button>
+      </div>
+      <div>
+        <h3>Enter a number between 1 and 99 to find the next number that is divisible by 10 and greater than your number</h3>
+            <!-- Sets inputThree class so JavaScript can listen for it -->
+            <input type="text" class="inputThree">
+            <button class="roundUpButton">Next Number</button>
+      </div>
+      <div>
+        <h3>Are you a fan of the Gettysburg Address? Enter a number in the textbox below to see which words in the first sentence have at least that many letters.</h3>
+            <input type="text" class="inputFour">
+              <!-- Sets inputFour class so JavaScript can listen for it -->
+            <button class="addressButton">Words from Gettysburg Address with Minimum Number of Letters</button>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
