@@ -52,3 +52,4 @@ $(function() {
 
   })
 });
+//This is a dummy comment to make the file different, thus allowing for a pull request
